@@ -1,8 +1,11 @@
 .mainBlock {
-    height: 100vh;
-    min-width: 500px;
+    min-height: 100vh;
+    min-width: 360px;
     border: 1px solid black;
     background-color: #beffa3;
+    display: flex;
+    align-items: center;
+
 }
 .text {
     width: 300px;
@@ -17,20 +20,24 @@
 }
 .conteiner {
     border: 1px solid black;
-    height: 100%;
-    width: 60%;
+    height: auto;
+    width: 80%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: space-around;
 }
+/*
 @media screen and (max-width: 1150px){
+    .mainBlock {
+        min-height: auto;
+
+    }
     .conteiner {
         width: 80%;
         font-size: 130%;
         min-width: 400px;
-        flex-wrap: wrap-reverse;
-        justify-content: space-around;
+        flex-direction: column-reverse;
     }
-
-}
+}*/

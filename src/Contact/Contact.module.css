@@ -1,15 +1,14 @@
 .contactBlock {
-    min-height: 50vh;
-    min-width: 500px;
+    min-height: 20vh;
+    min-width: 360px;
     border: 1px solid black;
     background-color: #cdffa1;
 }
 
 .contactConteiner {
     border: 1px solid black;
-    height: 80%;
-    width: 60%;
-    margin: 2.5% auto;
+    width: 80%;
+    margin: 3% auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,8 +23,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
+
+input, textarea {
+    margin: 2px;
+    padding: 0;
+    width: 95%;
+}
+
+/*
 @media screen and (max-width: 1150px){
 
     .contactConteiner {
@@ -37,3 +43,4 @@
 
 }
 
+*/

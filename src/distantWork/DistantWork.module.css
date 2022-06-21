@@ -1,6 +1,6 @@
 .distantWorkBlock {
-    height: 50vh;
-    min-width: 500px;
+    min-height: 30vh;
+    min-width: 360px;
     border: 1px solid black;
     background-color: #e4ffd5;
 }
@@ -8,14 +8,16 @@
 .distantWorkConteiner {
     border: 1px solid black;
     height: 80%;
-    width: 60%;
-    margin: 2.5% auto;
+    width: 80%;
+    margin: 5% auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
+    text-align: center;
 }
+
+/*
 @media screen and (max-width: 1150px){
     .distantWorkBlock {
         height: auto;
@@ -24,8 +26,8 @@
         width: 80%;
         font-size: 120%;
         min-width: 400px;
-        text-align: center;
     }
 
 }
+*/
 
