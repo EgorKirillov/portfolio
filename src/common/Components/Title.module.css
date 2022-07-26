@@ -2,7 +2,6 @@
     /*background-color: orange;*/
     margin: 0 0 30px;
     font-family: 'Syne', sans-serif;
-    color: white;
     font-size: 36px;
     position: relative;
     line-height: 1.2;
@@ -11,7 +10,7 @@
 .title h2 {
     margin: 0;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 500;
     text-transform: capitalize;
 }
 
