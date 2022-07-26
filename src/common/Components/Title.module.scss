@@ -1,0 +1,58 @@
+@import "./src/common/styles/variables";
+@import "./src/common/styles/mixins";
+
+/*
+.title {
+  !*background-color: orange;*!
+  margin: 0 0 30px;
+  font-family: 'Syne', sans-serif;
+  font-size: 36px;
+  position: relative;
+  line-height: 1.2;
+  letter-spacing: 5px;
+
+  h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: #557A95;
+    width: 55px;
+    height: 2px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+*/
+
+.title {
+  margin: 0 0 30px;
+  position: relative;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  //@include text(  36px, 1.4, 700);
+  h2 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: $primaryColor;
+    width: 55px;
+    height: 2px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+

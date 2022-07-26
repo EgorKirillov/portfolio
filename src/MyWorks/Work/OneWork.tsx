@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./OneWork.module.css"
+import style from "./OneWork.module.scss"
 
 
 const OneWork = (props: { style:object; title: string; discription: string }) => {

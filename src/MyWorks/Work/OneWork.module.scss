@@ -1,0 +1,102 @@
+@import "./src/common/styles/variables";
+
+.mywork {
+    min-width: 250px;
+    max-width: 405px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .preview {
+        height: 250px;
+        //background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position:  center;
+        background-repeat: no-repeat;
+        position: relative;
+        &:hover::before {
+            position: absolute;
+            content: "";
+            background-color: black;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.4;
+        }
+        .viewButton {
+            padding: 10px 20px;
+            background: $primaryColor;
+            position: relative;
+            z-index: 2;
+            border-radius: 50% ;
+        }
+    }
+    .description {
+        padding: 25px 20px;
+        background-color: $bgSecondColor;
+        h3{
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        div{
+            text-align: left;
+
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+    }
+
+}
+/*.preview {
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    position: relative;
+}*/
+/*.preview:hover::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+
+}*/
+/*
+.viewButton {
+    padding: 10px 20px;
+    background: #557A95;
+    position: relative;
+    z-index: 2;
+}
+.description {
+    !*border: 1px solid brown;*!
+    padding: 25px 20px;
+    background-color: #79787e;
+
+}
+.description h3{
+    !*border: 1px solid black;*!
+    !*background-color: #ff7b19;*!
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.description div{
+    !*border: 1px solid black;*!
+    !*background-color: #ff7b19;*!
+    text-align: left;
+    font-size: 14px;
+}
+
+*/

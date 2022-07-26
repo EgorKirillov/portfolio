@@ -1,9 +1,10 @@
+@import  "./src/common/styles/variables";
 *, body {
   margin: 0;
   font-family: 'Syne', sans-serif;
   font-weight: 400;
   box-sizing: border-box;
-  color: white;
+  color: $textColor;
 
   /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

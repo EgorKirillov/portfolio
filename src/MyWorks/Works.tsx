@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./works.module.css"
+import style from "./works.module.scss"
 import OneWork from "./Work/OneWork";
 import Title from "../common/Components/Title";
 import toDoImage from "../../src/assets/image/td.png"
