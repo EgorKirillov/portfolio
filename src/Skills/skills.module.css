@@ -18,11 +18,14 @@
 
 }
 
+/*
 .title {
     background-color: orange;
 }
+*/
 
 .skills {
+    margin-top: 30px;
     border: 1px solid;
     background-color: #ffb1e6;
     width: 100%;

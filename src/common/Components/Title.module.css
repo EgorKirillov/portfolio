@@ -1,0 +1,27 @@
+.title {
+    /*background-color: orange;*/
+    margin: 0 0 30px;
+    font-family: 'Syne', sans-serif;
+    color: white;
+    font-size: 36px;
+    position: relative;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+.title h2 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    background: #557A95;
+    width: 55px;
+    height: 2px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
+}

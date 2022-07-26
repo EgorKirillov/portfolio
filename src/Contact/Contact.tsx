@@ -1,4 +1,5 @@
 import React from 'react';
+import Title from '../common/Components/Title';
 import style from "./Contact.module.css"
 
 
@@ -6,7 +7,7 @@ const Contact = () => {
    return (
      <div className={style.contactBlock}>
         <div className={style.contactConteiner}>
-           <h3 className={style.title}>Свяжись со мной</h3>
+           <Title title={'Свяжись со мной'}/>
            <form action={"action"} className={style.formClass}>
               <input type="text" placeholder={"Имя"}/>
               <input type="text" placeholder={"Куда отвечать"}/>
