@@ -1,7 +1,14 @@
 import React from 'react';
-import style from "./Main.module.css"
+import style from "./Main.module.scss"
+import myfoto from "../assets/image/foto.jpg"
+
+
 
 const Main = () => {
+    const myFotoStyle = {
+        backgroundImage:`url(${myfoto})`,
+        backgroundSize: '100%',
+    }
    return (
      <div className={style.mainBlock}>
         <div className={style.conteiner}>
@@ -10,7 +17,7 @@ const Main = () => {
               <h1>I am Egor Kirillov</h1>
               <p>A am React/Redux developer</p>
            </div>
-           <div className={style.photo}> фото </div>
+           <div className={style.photo} style={myFotoStyle}> </div>
         </div>
      </div>
    );

@@ -1,16 +1,16 @@
 import React from 'react';
 import Title from '../common/Components/Title';
-import style from "./DistantWork.module.css"
+import style from "./DistantWork.module.scss"
 
 
 const DistantWork = () => {
    return (
      <div className={style.distantWorkBlock}>
         <div className={style.distantWorkConteiner}>
-           <Title title={"Не исключаю удаленную работу"}/>
+           <Title title={"ready to distant work"}/>
            
-           <button> contact with me</button>
-           <h2 className={style.title}>но всегда приятней работать в коллективе</h2>
+           <button className={style.contactButton}> contact with me</button>
+           <h2 className={style.title}>but always better to work in a team</h2>
         
         
         </div>

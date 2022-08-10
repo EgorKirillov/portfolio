@@ -1,0 +1,61 @@
+@import "../../src/common/styles/variables.scss";
+
+
+.mainBlock {
+  min-height: 100vh;
+  min-width: 360px;
+  border: 1px solid $bgFirstColor;
+  background-color: $bgFirstColor;
+  display: flex;
+  align-items: center;
+
+  .conteiner {
+    border: 1px solid $bgFirstColor;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+    .text {
+      width: 300px;
+      //border: 1px solid $bgSecondColor;
+      //background-color: $bgSecondColor;
+      span, h1, p {
+        color: $primaryColor2;
+        text-shadow: -1px 1px 2px $primaryColor;
+      }
+    }
+
+    .photo {
+      min-width: 450px;
+      min-height: 600px;
+      border: 1px solid $bgSecondColor;
+      background-color: $bgSecondColor;
+    }
+
+    @media screen and (max-width: 1150px) {
+      .photo {
+        min-width: 300px;
+        min-height: 400px;
+      }
+    }
+  }
+}
+
+
+/*
+@media screen and (max-width: 1150px){
+    .mainBlock {
+        min-height: auto;
+
+    }
+    .conteiner {
+        width: 80%;
+        font-size: 130%;
+        min-width: 400px;
+        flex-direction: column-reverse;
+    }
+}*/
