@@ -7,7 +7,10 @@ import myfoto from "../assets/image/foto.jpg"
 const Main = () => {
     const myFotoStyle = {
         backgroundImage:`url(${myfoto})`,
-        backgroundSize: '100%',
+         // maxWidth: '100%',
+         // height: 'auto',
+       //  backgroundSize: '100%',
+        
     }
    return (
      <div className={style.mainBlock}>
@@ -17,7 +20,10 @@ const Main = () => {
               <h1>I am Egor Kirillov</h1>
               <p>A am React/Redux developer</p>
            </div>
-           <div className={style.photo} style={myFotoStyle}> </div>
+            <div className={style.photoBlock}>
+                <div className={style.photo} style={myFotoStyle}></div>
+                <span className={style.spanPhoto}> </span></div>
+            
         </div>
      </div>
    );
