@@ -4,8 +4,6 @@
 .mainBlock {
   min-height: 100vh;
   min-width: 360px;
-  border: 1px solid $bgFirstColor;
-  background-color: $bgFirstColor;
   display: flex;
   align-items: center;
 
@@ -21,8 +19,7 @@
 
     .text {
       width: 300px;
-      //border: 1px solid $bgSecondColor;
-      //background-color: $bgSecondColor;
+
       span, h1, p {
         color: $primaryColor2;
         text-shadow: -1px 1px 2px $primaryColor;
@@ -44,8 +41,6 @@
 
       .photo {
         background-repeat: no-repeat;
-        //min-width: auto;
-        //min-height: 100%;
         aspect-ratio: 3/4;
         min-width: 450px;
         min-height: 600px;
@@ -58,7 +53,7 @@
 
       .spanPhoto {
         position: absolute;
-        top: 0px;
+        top: 0;
         bottom: 0;
         z-index: -9;
         height: 100%;
@@ -74,43 +69,15 @@
 
     @media screen and (max-width: 1150px) {
       .photoBlock {
-
-        //min-width: 240px;
-        //min-height: 100%;
-        //aspect-ratio: 3/4;
-
         .photo {
-         // background-repeat: no-repeat;
           min-width: 100%;
           min-height: auto;
-          //aspect-ratio: 3/4;
-          //min-width: 220px;
-          //min-height: 380px;
-          //max-width: 100%;
-          //height: auto;
         }
       }
       .text {
-        //margin: 20px 0 0 55px;
-
         span, h1, p {
         }
       }
     }
   }
 }
-
-
-/*
-@media screen and (max-width: 1150px){
-    .mainBlock {
-        min-height: auto;
-
-    }
-    .conteiner {
-        width: 80%;
-        font-size: 130%;
-        min-width: 400px;
-        flex-direction: column-reverse;
-    }
-}*/

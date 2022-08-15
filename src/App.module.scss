@@ -1,0 +1,15 @@
+@import "./src/common/styles/variables";
+
+* {
+  box-sizing: border-box;
+}
+
+.bodyBlock:nth-child(2n) {
+  border: 1px solid $bgSecondColor;
+  background-color: $bgSecondColor;
+}
+
+.bodyBlock div:nth-child(2n+1) {
+  border: 1px solid $bgFirstColor;
+  background-color: $bgFirstColor;
+}

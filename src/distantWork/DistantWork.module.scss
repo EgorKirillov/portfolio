@@ -1,57 +1,35 @@
 @import "./src/common/styles/variables";
 
 .distantWorkBlock {
-    min-height: 30vh;
-    min-width: 360px;
-    border: 1px solid $bgSecondColor;
-    background-color: $bgSecondColor;
-    .distantWorkConteiner {
-       // border: 1px solid black;
-        height: 80%;
-        width: 80%;
-        margin: 5% auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        text-align: center;
-        .contactButton {
-            //display: block;
-            //font: 400 14px/1.2 'Poppins', sans-serif;
-            //text-transform: uppercase;
-            //text-decoration: none;
-            letter-spacing: 2px;
-            padding: 7px 20px;
-            //transition: all 0.4s ease-in-out 0s;
-            background: $bgFirstColor;
-            //color: #fff;
-            max-width: 170px;
-            margin: 30px auto;
-            //z-index: 22;
-            text-align: center;
-            border-radius: 5px;
-            border-color: $primaryColor;
-            width: 100%;
-            cursor: pointer;
-            //border: none;
-            //position: relative;
-        }
+  min-height: 30vh;
+  min-width: 360px;
+
+  .distantWorkConteiner {
+    height: 80%;
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+    .contactButton {
+      letter-spacing: 2px;
+      padding: 7px 20px;
+      background: $bgFirstColor;
+      max-width: 170px;
+      margin: 30px auto;
+      text-align: center;
+      border-radius: 5px;
+      border-color: $primaryColor;
+      width: 100%;
+      color: $primaryColor2;
+      cursor: pointer;
     }
+
+    .contactButton:hover {
+      color: #fff;
+    }
+  }
 }
-
-
-
-/*
-@media screen and (max-width: 1150px){
-    .distantWorkBlock {
-        height: auto;
-    }
-    .distantWorkConteiner {
-        width: 80%;
-        font-size: 120%;
-        min-width: 400px;
-    }
-
-}
-*/
-

@@ -4,8 +4,6 @@
   min-height: 50vh;
   height: auto;
   min-width: 360px;
-  border: 1px solid $bgFirstColor;
-  background-color: $bgFirstColor;
 
   .worksConteiner {
     height: 80%;
@@ -28,22 +26,4 @@
     }
   }
 }
-
-
-/*
-@media screen and (max-width: 1150px){
-    .worksBlock {
-        height: auto;
-    }
-    .worksConteiner {
-        width: 80%;
-        font-size: 150%;
-        min-width: 400px;
-    }
-    .works {
-        justify-content: space-evenly;
-    }
-
-}
-*/
 

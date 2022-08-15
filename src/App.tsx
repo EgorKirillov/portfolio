@@ -6,19 +6,22 @@ import Works from "./MyWorks/Works";
 import DistantWorks from "./distantWork/DistantWork";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
+import style from "./App.module.scss"
 
 function App() {
-  return (
-    <div>
-      <Header/>
-       <Main/>
-       <Skills />
-       <Works />
-       <DistantWorks/>
-       <Contact/>
-       <Footer/>
-    </div>
-  );
+    return (
+        <div>
+            <Header/>
+            <div className={style.bodyBlock}>
+                <Main/>
+                <Skills/>
+                <Works/>
+                <DistantWorks/>
+                <Contact/>
+            </div>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
