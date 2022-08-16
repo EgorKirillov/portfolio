@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-.bodyBlock:nth-child(2n) {
+.bodyBlock section:nth-child(2n) {
   border: 1px solid $bgSecondColor;
   background-color: $bgSecondColor;
 }
 
-.bodyBlock div:nth-child(2n+1) {
+.bodyBlock section:nth-child(2n+1) {
   border: 1px solid $bgFirstColor;
   background-color: $bgFirstColor;
 }

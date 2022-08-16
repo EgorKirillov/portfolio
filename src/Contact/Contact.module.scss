@@ -11,6 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
 
     .formClass {
       margin: 30px 0 0 0;
@@ -31,8 +32,6 @@
 
       button {
         margin: 30px 0 0 0;
-        background-color: $primaryColor;
-
       }
     }
 

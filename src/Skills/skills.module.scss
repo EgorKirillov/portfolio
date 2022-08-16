@@ -13,11 +13,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-color:inherit;
 
     .skills {
       margin-top: 30px;
       //border: 1px solid;
-      //background-color: $bgSecondColor;
+      background-color:inherit; // $bgSecondColor;
       width: 100%;
       display: flex;
       flex-wrap: wrap;

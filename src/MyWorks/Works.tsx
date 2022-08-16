@@ -17,7 +17,7 @@ const Works = () => {
     
     
     return (
-        <div className={style.worksBlock}>
+        <section className={style.worksBlock} id={"myWorks"}>
             <div className={style.worksConteiner}>
                 <Title title={"my works"}/>
                 <div className={style.works}>
@@ -31,7 +31,7 @@ const Works = () => {
                 </div>
             </div>
         
-        </div>
+        </section>
     );
 };
 

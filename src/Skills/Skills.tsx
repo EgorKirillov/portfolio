@@ -5,7 +5,7 @@ import Title from "../common/Components/Title";
 
 const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <section className={style.skillsBlock} id={"skills"}>
             <div className={style.skillsConteiner}>
                 <Title title={"skills"}/>
                 <div className={style.skills}>
@@ -24,7 +24,7 @@ const Skills = () => {
                 </div>
             </div>
         
-        </div>
+        </section>
     );
 };
 

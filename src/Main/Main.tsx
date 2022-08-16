@@ -13,7 +13,7 @@ const Main = () => {
         
     }
    return (
-     <div className={style.mainBlock}>
+     <section className={style.mainBlock} id={"mainBlock"}>
         <div className={style.conteiner}>
            <div className={style.text}>
               <span>Hi world</span>
@@ -25,7 +25,7 @@ const Main = () => {
                 <span className={style.spanPhoto}> </span></div>
             
         </div>
-     </div>
+     </section>
    );
 };
 
