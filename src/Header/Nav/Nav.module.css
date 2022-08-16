@@ -1,8 +1,8 @@
 .nav {
-    border: 1px solid inherit;
-    min-width: 360px;
+    /*border: 1 px solid inherit;*/
+    min-width: 400px;
     display: flex;
     justify-content: space-evenly;
-
-
+    font-size: 18px;
+    letter-spacing: 2px;
 }
