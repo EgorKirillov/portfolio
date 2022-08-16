@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.01949046.css",
-    "main.js": "/portfolio/static/js/main.764195ee.js",
+    "main.css": "/portfolio/static/css/main.e4862f9c.css",
+    "main.js": "/portfolio/static/js/main.1d9ff4a9.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/ss.png": "/portfolio/static/media/ss.219acd585ff6d628d91e.png",
     "static/media/td.png": "/portfolio/static/media/td.4f2a5fbdd20e0d0c2f59.png",
     "static/media/foto.jpg": "/portfolio/static/media/foto.adff4c34f5b9c007c1a7.jpg",
     "static/media/react.svg": "/portfolio/static/media/react.e27571eaed899c642345e71163624ef9.svg",
+    "static/media/codewars-red.svg": "/portfolio/static/media/codewars-red.ae70542faad07e2ab23b27a1df187fa1.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.a95675408ae17c456965e2f09376c31a.svg",
     "static/media/Ts.svg": "/portfolio/static/media/Ts.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
     "static/media/api.svg": "/portfolio/static/media/api.6121b70953a2534aae1e6f10e7a8f0fe.svg",
     "static/media/Js.svg": "/portfolio/static/media/Js.c4c89593ed1e0e3dc681b04e7ba75899.svg",
     "static/media/git.svg": "/portfolio/static/media/git.4e11bfbcf21ed0e74f25ba7d1d2d1ee2.svg",
+    "static/media/linkedin-svgrepo-com-black.svg": "/portfolio/static/media/linkedin-svgrepo-com-black.2350a9bf3c9b140985fa189546aea6e6.svg",
+    "static/media/freecodecamp-svgrepo-com.svg": "/portfolio/static/media/freecodecamp-svgrepo-com.ef61798a5f7c98fed4b633d2d7b7d03c.svg",
     "static/media/html5.svg": "/portfolio/static/media/html5.185baee7db74b83bf22eec6a6def7644.svg",
     "static/media/css3.svg": "/portfolio/static/media/css3.212d777ae2db63edb235490d487dc292.svg",
     "index.html": "/portfolio/index.html",
-    "main.01949046.css.map": "/portfolio/static/css/main.01949046.css.map",
-    "main.764195ee.js.map": "/portfolio/static/js/main.764195ee.js.map",
+    "static/media/github-svgrepo-com-black.svg": "/portfolio/static/media/github-svgrepo-com-black.1ba3cd4d5be2bed39ba9b547b54b1f97.svg",
+    "main.e4862f9c.css.map": "/portfolio/static/css/main.e4862f9c.css.map",
+    "main.1d9ff4a9.js.map": "/portfolio/static/js/main.1d9ff4a9.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01949046.css",
-    "static/js/main.764195ee.js"
+    "static/css/main.e4862f9c.css",
+    "static/js/main.1d9ff4a9.js"
   ]
 }
