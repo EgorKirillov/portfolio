@@ -1,23 +1,25 @@
 @import "../../../src/common/styles/variables.scss";
 
 .skill {
+  min-width: 250px;
+  max-width: 350px;
+  //border: 1px solid black;
+  background-color: $bgFirstColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 15px 0 0 0;
 
-    min-width: 250px;
-    max-width: 350px;
+  .description {
     //border: 1px solid black;
-    background-color: $bgFirstColor;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 15px 0 0 0;
-    .description {
-        //border: 1px solid black;
+    margin: 0 0 10px 0;
+  }
 
-    }
-    .icon {
-        width: 60px;
-        height: 60px;
-        //background-color: gray;
-    }
+  .icon {
+    margin: 10px 0 0 0;
+    width: 64px;
+    height: auto; //64px;
+    //background-color: gray;
+  }
 }
