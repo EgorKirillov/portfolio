@@ -9,9 +9,11 @@ type PropsType = {
 const Skill = (props: PropsType) => {
     return (
         <div className={style.skill}>
+          <div className={style.iconContainer}>
             <div className={style.icon}>
-                {props.children}
+              {props.children}
             </div>
+          </div>
             <h3>{props.title}</h3>
             <div className={style.description}>{props.discription}</div>
         

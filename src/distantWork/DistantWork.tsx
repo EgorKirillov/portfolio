@@ -11,7 +11,7 @@ const DistantWork = () => {
            <Title title={"ready to distant work"}/>
            
            {/*<button className={style.contactButton}> contact with me</button>*/}
-           <Button> contact with me</Button>
+           <Button> contact </Button>
            <h2 className={style.title}>but always better to work in a team</h2>
         
         
