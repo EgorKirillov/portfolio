@@ -16,8 +16,9 @@
   }
 
   input, textarea {
-    margin: 2px;
-    padding: 3px;
+    border: none;
+    margin: 8px;
+    padding: 10px 20px;
     width: 85%;
     color: $formTextColor;
     background-color: $formBgColor;

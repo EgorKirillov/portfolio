@@ -15,6 +15,7 @@ const Main = () => {
   }
   
   const params = {
+    
     fpsLimit: 60,
     particles: {
      number:{ value: 80,
