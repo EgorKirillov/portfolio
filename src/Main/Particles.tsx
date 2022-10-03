@@ -1,6 +1,8 @@
 import {useCallback} from "react";
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
+import {IParallax} from "tsparticles-engine/types/Options/Interfaces/Interactivity/Events/IParallax";
+import {InteractivityDetect} from "tsparticles-engine/types/Enums/InteractivityDetect";
 
 
 export const Part = () => {
@@ -14,6 +16,7 @@ export const Part = () => {
     <Particles
       id={"tsparticles"}
       init={particlesInit}
+      style = {{"zIndex": -1}}
       options={{
         // background: {
         //   color: {
@@ -21,7 +24,7 @@ export const Part = () => {
         //   },
         // },
         fpsLimit: 60,
-        interactivity: {
+      /*  interactivity: {
           events: {
             onClick: {
               enable: true,
@@ -31,7 +34,7 @@ export const Part = () => {
             onHover: {
               enable: true,
               mode: "bubble",
-            },
+                         },
             resize: true,
           },
           modes: {
@@ -49,10 +52,16 @@ export const Part = () => {
             }
             
           },
-        },
+        },*/
         // duration: 6000,
         pauseOnOutsideViewport: true,
         particles: {
+          zIndex:{
+            opacityRate: -100,
+            velocityRate: -100,
+            sizeRate: -100,
+            value:-100,
+          },
 
           color: {
             value: "#80B8E0",

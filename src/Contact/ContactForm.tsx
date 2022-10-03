@@ -16,7 +16,7 @@ type PropsType = {
 export const ContactForm = (props:PropsType) => {
     const {register, handleSubmit, watch, formState: {errors}} = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = (data) => {
-        console.log(data);
+        // console.log(data);
         props.callBack(data)
     }
     
